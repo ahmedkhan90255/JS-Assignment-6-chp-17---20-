@@ -1,0 +1,35 @@
+body {
+  background-color: cadetblue;
+  color: darkviolet;
+  font-family: sans-serif;
+}
+h1 {
+  font-size: 40px;
+  background-color: violet;
+  text-align: center;
+  text-decoration: underline black;
+  color: red;
+}
+a {
+  text-decoration: underline goldenrod;
+  font-size: 35px;
+  color: indigo;
+}
+div {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+a:hover {
+  background-color: chartreuse;
+  color: brown;
+}
+a:active {
+  background-color: crimson;
+  color: cyan;
+}
+h1:hover {
+  background-color: yellow;
+  color: firebrick;
+}
